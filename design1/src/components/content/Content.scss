@@ -1,0 +1,54 @@
+$color:#ffc800 ;
+.content{
+    color: rgb(255, 255, 255);
+   background-image: url(https://img.freepik.com/premium-vector/arab-businesspeople-team-making-financial-presentation-digital-board-during-conference-meeting-successful-team-working-creative-night-dark-office-full-length-horizontal-vector-illustration_48369-39130.jpg);
+     background-repeat: no-repeat;
+  background-size: 100%;
+&__part{
+    background: none;
+     padding:90px  160px 0px 160px;
+
+    .text{
+       
+        background: none;
+        font-size: 5rem;
+        font-weight: bold;
+    }
+    .text::first-line{
+        color:$color;
+   
+    }
+.circle {
+    margin-top: 4rem ;
+  width: 80px;
+  height: 80px;
+  border: #f700ff 1px solid;
+  border-radius: 50%;
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red-circle {
+  width: 55px;
+  height: 55px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 25px solid #f700ff;
+  border-bottom: 10px solid transparent;
+  background: none;
+  align-items: center;
+  justify-content: center;
+}
+
+ }}
