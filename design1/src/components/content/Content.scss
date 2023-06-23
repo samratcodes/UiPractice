@@ -44,11 +44,34 @@ $color:#ffc800 ;
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
-  border-left: 25px solid #f700ff;
+  border-left: 20px solid #f700ff;
   border-bottom: 10px solid transparent;
   background: none;
   align-items: center;
   justify-content: center;
 }
+&__left{
 
- }}
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background: none;
+    .date{
+        font-size: 2rem;
+        font-weight: 1000;
+        color: #f700ff;
+            background: none;
+    }
+    .address{font-weight: bold;
+        font-size: large;
+        background: none;
+    }
+    .buy{
+        font-weight: 700;
+        color: $color;
+        border: 2px solid $color;
+        padding: 10px;
+    }
+}
+ 
+}}

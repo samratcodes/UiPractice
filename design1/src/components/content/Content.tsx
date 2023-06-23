@@ -13,6 +13,13 @@ const Content = () => {
             <div className="triangle"></div>
           </div>
         </div>
+        <div className="content__part__left">
+          <div className="date">12 Aug  2021</div>
+          <div className="address">3968 CARSON STREET,SAN DIEGO,CA92101 </div>
+          <div className='buy'>
+            Buy Tickets 
+          </div>
+        </div>
       </div>
     </div>
   );
