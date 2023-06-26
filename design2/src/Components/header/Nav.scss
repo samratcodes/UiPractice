@@ -1,13 +1,26 @@
-.Nav{
-    margin-top: 40px;
-     padding: 0px 260px ;
-    .logo{
-        display: flex;
-        font-size: 2rem;
-        font-weight: bold;
-        .YellowText{
-            color: rgb(255, 166, 0);
-        }
-    }
-    
+.Nav{ color: aliceblue;
+    margin-top: 20px;
+   width: 100vw;
+   background-color: rgb(12, 45, 45);
+   &__elements{
+    display: flex;
+    margin: 0px 280px;
+    select{
+    color: aliceblue;
+   background-color: rgb(12, 45, 45);
+    border: none;
+   }
+   .menu{
+      display: flex;
+justify-content: space-between;
+   }
+   #ok{
+    padding: 10px 30px;
+   }
+   .home{
+           background-color: rgb(251, 191, 79);
+
+   }
+  
+}
 }

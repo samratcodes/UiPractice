@@ -5,11 +5,11 @@ import'./Header.scss';
 const Header = () => {
   return (
     <div className="Header">
-        <Contact/>
-        <Nav/>
-        <Search/> 
+      <Contact />
+     <Search />
+      <Nav />
     </div>
-  )
+  );
 }
 
 export default Header

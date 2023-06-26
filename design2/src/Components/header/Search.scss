@@ -1,0 +1,61 @@
+.Search{
+     margin-top: 40px;
+     padding: 0px 260px ;
+     display: flex;
+     justify-content: space-between;
+    .logo{
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        .YellowText{
+            color: rgb(255, 166, 0);
+        }
+    }
+    .Searchbar{
+        border: 1px solid rgb(155, 155, 155);
+        width: 550px;
+     
+        input{
+            width: 287px;
+               margin: 15px;
+        border: none;
+        
+    }
+    input:active{
+        border:none;
+    }
+    input::placeholder {
+         font-size: 17px;
+    }
+    select{
+        font-size: 17px;
+       margin: 10px 30px 10px 40px;
+        border: none;
+        background-color: none;
+        border-right: 2px solid rgb(168, 164, 164);
+        
+    }
+    
+}
+button{
+    
+    width: 48.5px;
+        height: 100%;
+        padding: 0px;
+        border: none;
+        background-color: rgb(251, 191, 79);
+        i{
+            color: aliceblue;
+        }
+    }
+.icons{
+    display: flex;
+  justify-content: center;
+  align-items: center; 
+      font-size:20px;
+      font-weight: bold;
+  i{
+    margin-right: 20px;
+  }
+}
+}
