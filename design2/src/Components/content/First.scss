@@ -1,5 +1,48 @@
-.First{
-width: 100vm;
-height:30vm;
-background-color: antiquewhite;
+.First{display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 500px 20px 150px;
+background-image: url(./temp.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+&__text{
+     margin-top: 400px;
+     margin-bottom: 100px;
+
+    &__top{
+       color: rgb(255, 166, 0);
+       font-size: 1rem;
+    }
+    &__bold{
+        font-size: 3rem;
+        color: black;
+        font-weight: 300;
+    }
+    &__lorem{
+    font-size: 0.8rem;
+        font-weight: 100; 
+        color: rgb(62, 62, 62);  
+    }
+    &__shopnow{
+        padding: 10px;
+        background-color: rgb(255, 166, 0);
+         color: white;
+         width: max-content;
+    }
 }
+&__sale{
+    margin-top: -100px;
+    margin-left: -100px;
+    padding: 3px;
+     background-color: rgb(255, 166, 0);
+       border-radius: 50%;
+    &__inside{
+    font-size: 2rem;
+    color: white;
+   
+    padding: 20px;
+    border: 3px white dotted;
+    border-radius: 50%;
+}
+}}
