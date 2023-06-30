@@ -1,0 +1,21 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+   
+    &__Login{
+        i{
+            margin-right: 5px;
+
+        }
+    }
+        &__Trail{
+
+            padding: 0.5rem 1.5rem;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border-radius: 10px;
+        
+        }
+    }

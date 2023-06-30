@@ -1,0 +1,50 @@
+.Content{
+    margin-top:7% ;
+    display: flex;
+    justify-content: space-between;
+    &__Text{
+        &__head{
+            width: 85%;
+            font-size: 4rem;
+            color: rgb(0, 255, 166);
+        }
+        &__description{
+            margin: 30px 0px;
+            width: 70%;
+            font-size: 1rem;
+        color: rgb(180, 180, 180);
+        }
+        &__Download{
+            width: max-content;
+            padding: 10px 30px;
+            color: black;
+            background-color: rgb(255, 255, 255);
+            font-size: 1.5rem;
+            border-radius: 1rem;
+            i{
+               color: rgb(7, 172, 4);
+            }
+        }
+    }
+    &__images{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .img1{
+            margin: 20px 5px 5px 5px;
+        }
+        .img2{
+             margin: -20px 5px 5px 5px;
+        }
+          .img3{
+            margin: 5px;
+        }
+        .img4{
+          margin: -35px 5px 5px 5px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}
